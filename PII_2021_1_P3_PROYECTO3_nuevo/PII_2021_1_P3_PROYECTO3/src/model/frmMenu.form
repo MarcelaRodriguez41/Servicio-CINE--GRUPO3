@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="model.frmMenu">
+  <grid id="27dc6" binding="jpaPrincipal" custom-create="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-16777216"/>
+      <preferredSize width="800" height="800"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="55534" binding="jpaMenu" custom-create="true" layout-manager="GridBagLayout">
+        <constraints border-constraint="West"/>
+        <properties>
+          <background color="-16777216"/>
+          <preferredSize width="800" height="300"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="19273" class="javax.swing.JButton" binding="btnActores">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <icon value="imagenes/actores.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="ba384" class="javax.swing.JButton" binding="btnDirectores">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <icon value="imagenes/directors_chair_48px.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="b42f0" class="javax.swing.JButton" binding="btnSalas">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <icon value="imagenes/cortinas.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="20fe3" class="javax.swing.JButton" binding="btnGeneros">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <icon value="imagenes/movie_projector_48px.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="615b8" class="javax.swing.JButton" binding="btnHorario">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <foreground color="-1"/>
+              <icon value="imagenes/schedule.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="40d6f" class="javax.swing.JButton" binding="btnSucursales">
+            <constraints>
+              <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <icon value="imagenes/address_48px.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="54d8d" class="javax.swing.JButton" binding="btnReservaciones">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <icon value="imagenes/reserva.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="bd709" class="javax.swing.JButton" binding="btnPeliculas">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <icon value="imagenes/peli.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="aa2b3" class="javax.swing.JButton" binding="btnUsuarios">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <icon value="imagenes/select_users_40px.png"/>
+              <requestFocusEnabled value="false"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="4efd4" class="javax.swing.JButton" binding="btnSnacks">
+            <constraints>
+              <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <icon value="imagenes/popcorn_48px.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="5b336" class="javax.swing.JButton" binding="btnBoletos">
+            <constraints>
+              <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <icon value="imagenes/two_tickets_48px.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="93874" class="javax.swing.JLabel" binding="lblEmpleados">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Segoe Print" size="14" style="3"/>
+              <foreground color="-1"/>
+              <preferredSize width="100" height="16"/>
+              <text value="EMPLEADOS"/>
+            </properties>
+          </component>
+          <component id="a6882" class="javax.swing.JLabel" binding="lblActores">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Segoe Print" size="14" style="3"/>
+              <foreground color="-1"/>
+              <preferredSize width="90" height="26"/>
+              <text value="  ACTORES"/>
+            </properties>
+          </component>
+          <component id="ff57a" class="javax.swing.JLabel" binding="lblDirectores">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Segoe Print" size="14" style="3"/>
+              <foreground color="-1"/>
+              <text value="  DIRECTORES"/>
+            </properties>
+          </component>
+          <component id="bd321" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Segoe Print" size="14" style="3"/>
+              <foreground color="-1"/>
+              <text value="  HORARIOS"/>
+            </properties>
+          </component>
+          <component id="a9a2b" class="javax.swing.JLabel" binding="lblGeneros">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Segoe Print" size="14" style="3"/>
+              <foreground color="-1"/>
+              <text value="  GENEROS"/>
+            </properties>
+          </component>
+          <component id="970a2" class="javax.swing.JLabel" binding="lblSalas">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Segoe Print" size="14" style="3"/>
+              <foreground color="-1"/>
+              <text value="  SALAS"/>
+            </properties>
+          </component>
+          <component id="228d5" class="javax.swing.JLabel" binding="lblSucursal">
+            <constraints>
+              <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Segoe Print" size="14" style="3"/>
+              <foreground color="-1"/>
+              <text value="  SUCURSALES"/>
+            </properties>
+          </component>
+          <component id="69944" class="javax.swing.JLabel" binding="lblReservaciones">
+            <constraints>
+              <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Segoe Print" size="14" style="3"/>
+              <foreground color="-1"/>
+              <text value="RESERVACIONES"/>
+            </properties>
+          </component>
+          <component id="fcb4e" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Segoe Print" size="14" style="3"/>
+              <foreground color="-1"/>
+              <text value=" PELICULAS"/>
+            </properties>
+          </component>
+          <component id="6f2bd" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Segoe Print" size="14" style="3"/>
+              <foreground color="-1"/>
+              <text value="     SNACKS"/>
+            </properties>
+          </component>
+          <component id="1fbb0" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Segoe Print" size="14" style="3"/>
+              <foreground color="-1"/>
+              <text value="    BOLETOS"/>
+            </properties>
+          </component>
+          <component id="63ada" class="javax.swing.JButton" binding="btnEmpleados">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <icon value="imagenes/name_tag_40px.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="93cf" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Segoe Print" size="14" style="3"/>
+              <foreground color="-1"/>
+              <text value="  USUARIOS"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

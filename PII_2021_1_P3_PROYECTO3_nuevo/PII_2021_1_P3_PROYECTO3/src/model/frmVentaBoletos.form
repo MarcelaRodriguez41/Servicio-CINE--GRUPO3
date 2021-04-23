@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="model.frmVentaBoletos">
+  <grid id="27dc6" binding="jpaPrincipal" custom-create="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="730" height="534"/>
+    </constraints>
+    <properties>
+      <preferredSize width="700" height="550"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="e98de" binding="jpaSuperior" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="North"/>
+        <properties>
+          <background color="-939427"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="bdaf5" class="javax.swing.JLabel" binding="lblTitulo">
+            <constraints/>
+            <properties>
+              <background color="-939427"/>
+              <font name="Bookman Old Style" size="28" style="3"/>
+              <foreground color="-16777216"/>
+              <opaque value="true"/>
+              <text value="VENTA DE BOLETOS"/>
+            </properties>
+          </component>
+          <component id="7137d" class="javax.swing.JButton" binding="btnPost">
+            <constraints/>
+            <properties>
+              <background color="-16777216"/>
+              <icon value="imagenes/add_24px.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="c7121" class="javax.swing.JButton" binding="btnGetId">
+            <constraints/>
+            <properties>
+              <background color="-16777216"/>
+              <icon value="imagenes/search_24px.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="bc67c" class="javax.swing.JButton" binding="btnPut">
+            <constraints/>
+            <properties>
+              <background color="-16777216"/>
+              <icon value="imagenes/pencil_26px.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="e5ac" class="javax.swing.JButton" binding="btnDelete">
+            <constraints/>
+            <properties>
+              <background color="-16777216"/>
+              <icon value="imagenes/delete_trash_32px.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="e391f" class="javax.swing.JButton" binding="btnGetAll">
+            <constraints/>
+            <properties>
+              <background color="-16185079"/>
+              <icon value="imagenes/getAll.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="44369" binding="jpaDerecho" custom-create="true" layout-manager="GridLayoutManager" row-count="17" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="East"/>
+        <properties>
+          <preferredSize width="700" height="550"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="21d44" class="javax.swing.JLabel" binding="lblId">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <font name="Bookman Old Style" size="14" style="3"/>
+              <foreground color="-1"/>
+              <opaque value="true"/>
+              <text value="ID"/>
+            </properties>
+          </component>
+          <component id="5dfbd" class="javax.swing.JTextField" binding="txtId">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <foreground color="-1"/>
+            </properties>
+          </component>
+          <component id="6b125" class="javax.swing.JLabel" binding="lblNombreCliente">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <font name="Bookman Old Style" size="14" style="3"/>
+              <foreground color="-1"/>
+              <opaque value="true"/>
+              <text value="NOMBRE DE CLIENTE"/>
+            </properties>
+          </component>
+          <component id="27bfb" class="javax.swing.JTextField" binding="txtNombreCliente">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <foreground color="-1"/>
+            </properties>
+          </component>
+          <component id="da0b2" class="javax.swing.JLabel" binding="lblNombreEmpleado">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <font name="Bookman Old Style" size="14" style="3"/>
+              <foreground color="-1"/>
+              <opaque value="true"/>
+              <text value="NOMBRE DE EMPLEADO"/>
+            </properties>
+          </component>
+          <component id="65169" class="javax.swing.JTextField" binding="txtNombreEmpleado">
+            <constraints>
+              <grid row="5" column="0" row-span="3" col-span="2" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <foreground color="-1"/>
+            </properties>
+          </component>
+          <component id="ae703" class="javax.swing.JLabel" binding="lblNombrePelicula">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <font name="Bookman Old Style" size="14" style="3"/>
+              <foreground color="-1"/>
+              <opaque value="true"/>
+              <text value="NOMBRE PELICULA"/>
+            </properties>
+          </component>
+          <component id="703a" class="javax.swing.JTextField" binding="txtNombrePelicula">
+            <constraints>
+              <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <foreground color="-1"/>
+            </properties>
+          </component>
+          <component id="716fb" class="javax.swing.JLabel" binding="lblCantidadBoletos">
+            <constraints>
+              <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <font name="Bookman Old Style" size="14" style="3"/>
+              <foreground color="-1"/>
+              <opaque value="true"/>
+              <text value="CANTIDAD DE BOLETOS"/>
+            </properties>
+          </component>
+          <component id="30b88" class="javax.swing.JLabel" binding="lblPrecioBoleto">
+            <constraints>
+              <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <font name="Bookman Old Style" size="14" style="3"/>
+              <foreground color="-1"/>
+              <opaque value="true"/>
+              <text value="PRECIO DE BOLETO"/>
+            </properties>
+          </component>
+          <component id="769af" class="javax.swing.JTextField" binding="txtCantidadBoletos">
+            <constraints>
+              <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <foreground color="-1"/>
+            </properties>
+          </component>
+          <component id="ebe4b" class="javax.swing.JTextField" binding="txtPrecioBoleto">
+            <constraints>
+              <grid row="13" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <foreground color="-1"/>
+            </properties>
+          </component>
+          <component id="817b9" class="javax.swing.JLabel" binding="lblFecha">
+            <constraints>
+              <grid row="14" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <font name="Bookman Old Style" size="14" style="3"/>
+              <foreground color="-1"/>
+              <opaque value="true"/>
+              <text value="FECHA"/>
+            </properties>
+          </component>
+          <component id="727a" class="javax.swing.JTextField" binding="txtfecha">
+            <constraints>
+              <grid row="15" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-16777216"/>
+              <foreground color="-1"/>
+            </properties>
+          </component>
+          <grid id="40d5f" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="16" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <scrollpane id="8cbbb">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="4b259" class="javax.swing.JTable" binding="tblDatos">
+                    <constraints/>
+                    <properties/>
+                  </component>
+                </children>
+              </scrollpane>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
